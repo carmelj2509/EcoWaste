@@ -1,0 +1,182 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+
+	background-image: url('../images/background.jpg');
+	background-position: stretch;
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+	font-weight: 500;
+	font-size: 16px;
+	color:white;
+	font-family: "Montserret", sans-serif;
+}
+
+a{	
+	color:white;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.link a:hover{
+	color:#60ba4f;
+}
+
+div{
+	width: 100%;
+}
+
+input, select {
+	height: 4vh;
+	margin-left:9px;
+	width:50%;
+}
+
+label{
+	margin-left:9px;
+}
+
+img{
+
+}
+.container{
+	height: 99vh;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.header{
+	flex:1;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	box-shadow: 1px 3px 5px rgba(0,0,0,0.5);
+}
+
+.main-container{
+	flex:9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.footer{
+	flex:1;
+	bottom:0;
+}
+
+.nav-links{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.link{
+	text-align:right;
+}
+
+.logo{
+	margin-left:5px; 
+}
+
+.links{
+	margin-right:5px; 
+}
+
+.estimate-form{
+	color:black;
+	width:50%;
+	margin:auto;
+	height: 70vh;
+	box-shadow: 5px 7px 12px rgba(0,0,0,0.5);
+	background-color: rgba(255,255,255,0.6);
+	border-radius: 12px;
+
+}
+
+.form-content{
+	height: 69vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.row-1{
+	flex:1;
+	display: flex;
+	align-items: center;
+}
+
+.row-2{
+	flex:2;
+	display: flex;
+	align-items: center;
+
+}
+
+.row-3{
+	flex:3;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.row-4{
+	flex:1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn-calculate{
+	padding: 12px;
+	border:none;
+	width: 119px;
+	text-transform: uppercase;
+	border-radius: 12px;
+	background: #56ab2f;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btn-calculate:hover {
+	background-color: black;
+	box-shadow: 3px 5px 7px rgba(0,0,0,0.6);
+}
+
+.season{
+	
+ flex:2	;
+
+}
+
+.item1{
+
+flex: 1;
+}
+
+
+.item2{
+
+flex:1;
+
+}
+
+
+
+.footer{
+	display: flex;s
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
